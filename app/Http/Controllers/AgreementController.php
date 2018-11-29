@@ -8,7 +8,7 @@ class AgreementController extends Controller
 {
     public function see(Request $req)
     {
-
+        //fasdsdfds
         if($req->keyword){
             
             $data = Agreement::where('title','like',"%$req->keyword%")->get();
